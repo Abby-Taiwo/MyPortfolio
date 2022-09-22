@@ -1,0 +1,65 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    background: url('/src/images/porto.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.body ul {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(119, 40, 40);
+}
+
+.body section {
+   
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    line-height: 40px;
+}
+
+
+
+.body ul a {
+    color: rgb(34, 2, 2);
+    font-weight: bolder;
+
+}
+
+.body section h1 {
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body section h2 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.body section h3 {
+    color: rgb(12, 12, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.body section button {
+    width:60px ;
+    height: 30px; 
+    color: ;
+
+}
+
+
+ */
