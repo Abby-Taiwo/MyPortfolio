@@ -4,7 +4,7 @@ import React from 'react';
 
 function nav() {
   return (
-    <div className='flex items-center justify-between text-white font-semibold' >
+    <div id='nav' className='flex items-center justify-between text-white font-semibold' >
        <div className=''>
             <a href="/">Abby</a>
         </div>

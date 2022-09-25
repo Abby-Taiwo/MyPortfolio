@@ -2,7 +2,7 @@ import React from 'react'
 import mypicture from '../images/mypicture.jpeg'
 function about() {
   return (
-    <div className='mt-40 text-bolder'>
+    <div id='about' className='mt-40 text-bolder'>
       <div className='text-center text-white '>
       <h4 className='text-lg'>Hi there,</h4>
       <h1 className='text-6xl'>I'm Abby Taiwo</h1>
