@@ -35,7 +35,7 @@ function projects() {
                    <p className='text-lg text-center'>A Netflix clone app.</p>
                   </Typography>
                 </CardContent>
-                <CardActions>
+                <CardActions className='flex items-center justify-center'>
                   <a href="https://github.com/ELIJAHJOHNNY/GROUP-A-PROJECT.git">
                     <Button size="large">
                       <FontAwesomeIcon icon={faGithub}/>
