@@ -1,8 +1,26 @@
 .show-sidebar {
-    display: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    left: 0%;
+    transition: 1050ms;
+    height: 20vh;
+    width: 100%;
+    margin-top: 15px;
+    
 
 }
 
+#link {
+    margin-bottom: 10px;
+    
+}
+
 .sidebar {
-    display: block;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    transition: 850ms;
+    
 }

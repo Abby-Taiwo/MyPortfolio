@@ -1,17 +1,16 @@
 import React from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faMobile } from '@fortawesome/free-solid-svg-icons'
 
 function contact() {
   return (
-    <div id='contact'>
-      <div>
-        <h1 className='text-center text-white mt-20 text-4xl text-bolder'>Contact Me</h1>
-        <div>
-            <h2>connect with me via </h2>
-            <h2>abidemitaiwo95@gmail.com</h2>
-          </div>
-       </div>
+    <div id='contact' className='mb-8 text-white'>  
+        <h1 className='text-center mt-20 text-4xl text-bolder '>Contact Me</h1> 
+        <div className='w-1/2 mx-auto mt-8 text-center'>
+          <a href="mailto:abidemitaiwo95@gmail.com" className='p-4 rounded-md hover:opacity-80 bg-red-900'>
+            <button>
+              Say Hello
+            </button>
+          </a>
+        </div>     
     </div>
   )
 }
