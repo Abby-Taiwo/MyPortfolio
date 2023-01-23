@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import clone2 from '../images/clone2.png'
+import Handout from '../images/Handout.png'
 
 
 
@@ -52,7 +53,44 @@ function projects() {
               </Card>
             </div>
 
+            <div className='w-full max-w-2xl mx-auto mt-10 '>
+
+              {/* <Card sx={{ backgroundColor:deepPurple }}> */}
+              <Card sx={{ backgroundColor:'#23252f', color:'#ffffff' }}>
+                <CardMedia
+                  component="img"
+                  alt="green iguana"
+                  height="140"
+                  image={Handout}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="header">
+                   <h1 className='text-2xl text-center'>Handout</h1>
+                  </Typography>
+                  <Typography variant="div">
+                   <p className='text-lg text-center'>An Ecommerce app.</p>
+                  </Typography>
+                </CardContent>
+                <CardActions className='flex items-center justify-center'>
+                  <a href="https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git">
+                    <Button size="large">
+                      <FontAwesomeIcon icon={faGithub}/>
+                    </Button>
+                  </a>
+                  
+                  <a href="https://handout-stutern.web.app/" target='_blank' rel="noopener noreferrer">
+                    <Button size="large">
+                     <FontAwesomeIcon icon={faLink}/>
+                    </Button>
+                  </a>
+                  
+                </CardActions>
+              </Card>
+            </div>
+
         </div>
+
+        
     )
 }
 

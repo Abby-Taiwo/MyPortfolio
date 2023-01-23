@@ -7,7 +7,7 @@ function home() {
        <h2 className='text-2xl font-bold mb-8'>Design. Build. Improve</h2>
        <h1 className='text-6xl font-semibold'>I create beautiful websites</h1> 
        <h1 className='text-6xl font-semibold'> your users will love</h1>
-       <button className='border border-transparent mt-9 w-28 h-10 bg-purple rounded-xl text-white' >Hire Me</button>
+       <button className='border border-transparent mt-9 w-28 h-10 bg-purple rounded-xl text-white' >My resumee</button>
     </div>
   )
 }
