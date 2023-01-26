@@ -51,6 +51,7 @@ function projects() {
                   
                 </CardActions>
               </Card>
+              
             </div>
 
             <div className='w-full max-w-2xl mx-auto mt-10 '>

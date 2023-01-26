@@ -2,7 +2,13 @@ import React from 'react'
 
 function footer() {
   return (
-    <div>footer</div>
+    <div>
+        <h2>
+           Made by Abidemi Taiwo  
+        </h2>
+    <h4>&copy 2022</h4>
+
+        </div>
   )
 }
 
