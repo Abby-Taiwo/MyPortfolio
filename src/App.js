@@ -1,6 +1,6 @@
 import React from "react";
 import AllPages from "./components/allPages";
-import HandoutDetails from "./components/handoutDetails";
+import HandoutDetails from "./components/HandoutDetails";
 import { Routes, Route } from "react-router-dom";
 
 
