@@ -8,7 +8,7 @@ function about() {
       <h1 className='text-6xl'>I'm Abidemi Taiwo</h1>
     </div>
   <div className='flex flex-col md:flex-row px-8 items-center justify-between w-full text-white gap-5'>
-    <div className='flex flex-col flex-1 gap-5'>
+    <div className='flex flex-col flex-1 gap-5 '>
       <h4 className='md:text-center text-lg mt-20'>I'm a front end developer that hopes to work
       with teams around the world to help create 
       interactive and outstanding websites, My interest

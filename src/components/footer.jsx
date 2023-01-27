@@ -9,7 +9,6 @@ import '../styles/footer.css'
 
 function footer() {
   return (
-    <div>
         <footer className="footer">
 
                     <div className="links">
@@ -33,7 +32,6 @@ function footer() {
                 Made by Abidemi Taiwo
             </div>
         </footer>
-    </div>
   )
 }
 
