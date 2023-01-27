@@ -1,9 +1,9 @@
 import React from 'react'
 import Handout from '../images/Handout.png'
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function HandoutDetails() {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   
   return (
     <div className='bg-[#1e0213] text-white w-100% text-[20px] p-20'>
@@ -53,8 +53,8 @@ function HandoutDetails() {
        </div>
        <div className="flex w-full items-center justify-center">
           <button 
-            // onClick={() => navigate("/home")}
-          className="text-white bg-[#5a4752] p-4  mt-6 rounded-[4px] ">
+            onClick={() => navigate("/home")}
+          className="text-white bg-[#5a4752] p-4 font-bold  mt-6 rounded-[4px] ">
             Back to home
           </button>
         </div>

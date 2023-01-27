@@ -57,9 +57,9 @@ function Projects() {
         </Card>
         <div className="flex w-full items-center justify-center">
           <button
-            className="text-white bg-purple p-4  mt-6 rounded-[4px] "
+            className="text-white font-bold bg-purple p-4  mt-6 rounded-[4px] "
           >
-            view more details
+            View more details
           </button>
         </div>
       </div>
@@ -103,8 +103,8 @@ function Projects() {
         <div className="flex w-full items-center justify-center">
           <button 
             onClick={() => navigate("/handout-details")}
-          className="text-white bg-purple p-4  mt-6 rounded-[4px] ">
-            view more details
+          className="text-white font-bold bg-purple p-4  mt-6 rounded-[4px] ">
+            View more details
           </button>
         </div>
       </div>
